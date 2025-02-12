@@ -12,5 +12,11 @@ void createAccount(BankAccount &account, const string &accNum, const string &acc
     account.accountNumber = accNum;
     account.accountHolderName = accHolder;
     account.balance = initBalance;
-    std::cout << "Account created successfully!\n";
+    std::cout << "Account created successfully!";
+}
+
+int main(){
+
+    void createAccount();
+    return 0;
 }
